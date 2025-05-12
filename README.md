@@ -6,7 +6,6 @@ A simple and clean To-Do app built with Flutter. This application allows users t
 
 * Add, edit, and delete tasks
 * Mark tasks as complete or incomplete
-* Persistent storage using local database (SQFLite)
 * Responsive and adaptive UI
 
 ## Getting Started
@@ -21,13 +20,13 @@ A simple and clean To-Do app built with Flutter. This application allows users t
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/flutter-todo-app.git
+   git clone (https://github.com/awbah001/SIMPLE_TODO.git)
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd flutter-todo-app
+   cd SIMPLE_TODO
    ```
 
 3. Install dependencies:
@@ -47,14 +46,11 @@ A simple and clean To-Do app built with Flutter. This application allows users t
 ```
 lib/
 ├── main.dart
-├── models/
-│   └── task_model.dart
-├── screens/
-│   ├── home_screen.dart
-│   └── task_screen.dart
-├── widgets/
-│   ├── task_tile.dart
-│   └── task_list.dart
+│   
+├── pages/
+│   ├── home_page.dart
+│   └── todo_list.dart
+     
 └── services/
     └── database_helper.dart
 ```

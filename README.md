@@ -1,16 +1,69 @@
 # test_application
 
-A new Flutter project.
+# Flutter To-Do App
+
+A simple and clean To-Do app built with Flutter. This application allows users to manage their tasks efficiently with an intuitive UI.
+
+## Features
+
+* Add, edit, and delete tasks
+* Mark tasks as complete or incomplete
+* Responsive and adaptive UI
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter SDK installed (Flutter installation guide)
+* Android Studio or VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/awbah001/SIMPLE_TODO.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd flutter-todo-app
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+## Folder Structure
+
+```
+lib/
+├── main.dart
+├── models/
+│   └── task_model.dart
+├── screens/
+│   ├── home_screen.dart
+│   └── task_screen.dart
+├── widgets/
+│   ├── task_tile.dart
+│   └── task_list.dart
+└── services/
+    └── database_helper.dart
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to open a PR or report an issue.
+
+## License
+
+This project is licensed under the MIT License.
